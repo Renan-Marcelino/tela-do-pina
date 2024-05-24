@@ -1,0 +1,31 @@
+.formulario {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.campo1 h2 {
+    color: #fff;
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    color: #fff;
+}
+
+.campo1 {
+    margin-top: 50px;
+}
+
+.campo1 input {
+    padding: 10px;
+    width: 300px;
+    border-radius: 10px;
+}
+
+.buttonSub {
+    display: flex;
+    justify-content: center;
+}

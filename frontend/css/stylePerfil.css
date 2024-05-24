@@ -1,0 +1,187 @@
+
+.imagem {
+  position:absolute;
+  max-width: 50%;
+  top: -10%; /* Posição vertical*/
+  left: 2%; /* Posição horizontal*/ 
+ }
+
+ .imagem2 {
+  position:relative;
+  border: 3px solid #8800ff;
+  width: 25%; /* Tamanho do circulo */
+  height: 25%; /* Tamanho do circulo */
+  margin-top: 36%; /* Posição vertical */
+  left: 20%; /* Posição horizontal */
+  border-radius: 50%; /* Deixando o campo redondo */
+ }
+
+  .texto-lateral {
+    position: absolute;
+    left: 35%; /* Posição horizontal */
+    top: 35%; /* Posição vertical */
+    transform: translateY(-50%);
+    font-size: 50px; /* Tamanho da fonte */
+    color: #8800ff; /* Cor da fonte */
+ }
+
+ .texto-inferior {
+  position: absolute;
+  left: 35%; /* Posição horizontal */
+  top: 40%; /* Posição vertical */
+  font-size: 25px; /* Tamanho da fonte */
+  color: #8800ff; /* Cor da fonte */
+ }
+
+ .linha {
+  position: absolute;
+  left: 10.1%; /* posição da linha horizontal */
+  top: 58.1%; /* posição da linha vertical */
+  width: 77.8%; /* largura da linha */
+  border-top: 2px solid black;
+ }
+
+ .texto-linha {
+  position: absolute;
+  left: 10%; /* distancia do texto horizontal */
+  top: 56%; /* altura do texto vertical */
+  font-size: 25px; /* Tamanho da fonte */
+  color: #8800ff; /* Cor da fonte */
+ }
+
+ .botao {
+  position: absolute;
+  left: 66%; /* posição horizontal do botão */
+  top: 55.3%; /* posição vertical do botão */
+  
+ }
+
+ .botao button {
+  position: relative;
+  border-radius: 10px 10px; /* arredondamento do botão */
+  margin-right: 10px; /* Ajuste opcional para adicionar um espaço entre os botões */
+  background-color: #8800ff; /* cor do botão */
+  display: inline-block; /* Garante que o botão se comporte como um elemento em linha */
+  font-size: 20px; /* Tamanho da fonte do texto dentro do botão */
+  width: auto; /* ajusta a largura de acordo com o texto */
+ }
+
+ .video {
+  position: relative;
+  display: inline-block; /* Exibe os vídeos em linha */
+  width: 24%; /* Largura de cada vídeo */
+  margin-right: -2%; /* Espaço entre os vídeos */
+  vertical-align: top; /* Alinha os vídeos no topo */
+}
+
+.video video {
+  max-width: 100%; /* Garante que o vídeo se ajuste à largura do contêiner */
+  height: auto; /* Mantém a proporção da altura */
+}
+
+.videos {
+  position: absolute;
+  white-space: nowrap; /* Evita que os vídeos quebrem para a próxima linha */
+  margin-top: 28%; /* posição vertical dos vídeos */
+  margin-left: 7%; /* posição horizontal dos vídeos */
+}
+
+body {
+  background-color: #212121;
+  overflow-x: hidden;
+  width: 95vw;
+}
+
+@media (max-width: '500px'){
+  .imagem {
+    position:absolute;
+    max-width: 50%;
+    top: -10%; /* Posição vertical*/
+    left: 2%; /* Posição horizontal*/
+    
+   }
+  
+   .imagem2 {
+    position:relative;
+    border: 3px solid #8800ff;
+    width: 25%; /* Tamanho do circulo */
+    height: 25%; /* Tamanho do circulo */
+    margin-top: 36%; /* Posição vertical */
+    left: 20%; /* Posição horizontal */
+    border-radius: 50%; /* Deixando o campo redondo */
+   }
+  
+    .texto-lateral {
+      position: absolute;
+      left: 35%; /* Posição horizontal */
+      top: 35%; /* Posição vertical */
+      transform: translateY(-50%);
+      font-size: 50px; /* Tamanho da fonte */
+      color: #8800ff; /* Cor da fonte */
+   }
+  
+   .texto-inferior {
+    position: absolute;
+    left: 35%; /* Posição horizontal */
+    top: 40%; /* Posição vertical */
+    font-size: 25px; /* Tamanho da fonte */
+    color: #8800ff; /* Cor da fonte */
+   }
+  
+   .linha {
+    position: absolute;
+    left: 10.1%; /* posição da linha horizontal */
+    top: 58.1%; /* posição da linha vertical */
+    width: 77.8%; /* largura da linha */
+    border-top: 2px solid black;
+   }
+  
+   .texto-linha {
+    position: absolute;
+    left: 10%; /* distancia do texto horizontal */
+    top: 56%; /* altura do texto vertical */
+    font-size: 25px; /* Tamanho da fonte */
+    color: #8800ff; /* Cor da fonte */
+   }
+  
+   .botao {
+    position: absolute;
+    left: 66%; /* posição horizontal do botão */
+    top: 55.3%; /* posição vertical do botão */
+    
+   }
+  
+   .botao button {
+    position: relative;
+    border-radius: 10px 10px; /* arredondamento do botão */
+    margin-right: 10px; /* Ajuste opcional para adicionar um espaço entre os botões */
+    background-color: #8800ff; /* cor do botão */
+    display: inline-block; /* Garante que o botão se comporte como um elemento em linha */
+    font-size: 20px; /* Tamanho da fonte do texto dentro do botão */
+    width: auto; /* ajusta a largura de acordo com o texto */
+   }
+  
+   .video {
+    position: relative;
+    display: inline-block; /* Exibe os vídeos em linha */
+    width: 25%; /* Largura de cada vídeo */
+    margin-right: -2%; /* Espaço entre os vídeos */
+    vertical-align: top; /* Alinha os vídeos no topo */
+  }
+  
+  .video video {
+    max-width: 100%; /* Garante que o vídeo se ajuste à largura do contêiner */
+    height: auto; /* Mantém a proporção da altura */
+  }
+  
+  .videos {
+    position: absolute;
+    white-space: nowrap; /* Evita que os vídeos quebrem para a próxima linha */
+    margin-top: 28%; /* posição vertical dos vídeos */
+    margin-left: 9.8%; /* posição horizontal dos vídeos */
+  }
+  
+  body {
+    background-color: #000000;
+  }
+}

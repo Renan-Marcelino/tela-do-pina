@@ -1,0 +1,32 @@
+body {
+    background-color: #212121;
+    overflow-x: hidden;
+    width: 95vw;
+}
+
+.imagens {
+    position: relative;
+    left: 20%;
+    margin-top: 10%;
+}
+
+.img1 {
+    border-radius: 100%;
+}
+
+.img2 {
+    position: relative;
+    left: -2%;
+}
+
+
+.imputs {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 700px;
+    left: 40%;
+    gap: 20px;
+    top: -5%;
+}

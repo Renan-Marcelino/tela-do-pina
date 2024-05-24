@@ -1,0 +1,60 @@
+.topbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.listas {
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+}
+
+.container {
+    display: flex;
+    margin-top: 50px;
+}
+
+.videoPrincipal {
+    width: 68vw;
+    height: 74vh;
+    margin-top: 16px;
+}
+
+.container-videos-secundarios {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    max-width: 350px;
+    margin-left: 60px;
+}
+
+.container-videos-secundarios p {
+    color: white;
+}
+
+.estatisticas {
+    display: flex;
+    gap: 5px;
+    color: white;
+}
+
+.barraDePesquisa {
+    width: 23rem;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.botaobusca {
+    padding: 5px;
+    border-radius: 10px;
+    margin-right: 340px;
+}
+
+.tituloVideo {
+    color: white;
+}
+
+p {
+    color: white;
+}

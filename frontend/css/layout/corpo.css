@@ -1,0 +1,187 @@
+.imagem {
+  position:absolute;
+  max-width: 50%;
+  top: -10%; /* Posição vertical*/
+  left: 2%; /* Posição horizontal*/
+  
+ }
+
+ .imagem2 {
+  position:relative;
+  border: 3px solid #9762b7;
+  width: 25%; /* Tamanho do circulo */
+  height: 25%; /* Tamanho do circulo */
+  margin-top: 36%; /* Posição vertical */
+  left: 20%; /* Posição horizontal */
+  border-radius: 50%; /* Deixando o campo redondo */
+ }
+
+  .texto-lateral {
+    position: absolute;
+    left: 35%; /* Posição horizontal */
+    top: 35%; /* Posição vertical */
+    transform: translateY(-50%);
+    font-size: 50px; /* Tamanho da fonte */
+    color: #9762b7; /* Cor da fonte */
+ }
+
+ .texto-inferior {
+  position: absolute;
+  left: 35%; /* Posição horizontal */
+  top: 40%; /* Posição vertical */
+  font-size: 25px; /* Tamanho da fonte */
+  color: #9762b7; /* Cor da fonte */
+ }
+
+ .linha {
+  position: absolute;
+  left: 10.1%; /* posição da linha horizontal */
+  top: 58.4%; /* posição da linha vertical */
+  width: 80%; /* largura da linha */
+  border-top: 2px solid black;
+ }
+
+ .texto-linha {
+  position: absolute;
+  left: 10%; /* distancia do texto horizontal */
+  top: 56%; /* altura do texto vertical */
+  font-size: 25px; /* Tamanho da fonte */
+  color: #9762b7; /* Cor da fonte */
+ }
+
+ .botao {
+  position: absolute;
+  left: 66%; /* posição horizontal do botão */
+  top: 55.3%; /* posição vertical do botão */
+  
+ }
+
+ .botao button {
+  position: relative;
+  border-radius: 10px 10px; /* arredondamento do botão */
+  margin-right: 10px; /* Ajuste opcional para adicionar um espaço entre os botões */
+  background-color: #9762b7; /* cor do botão */
+  display: inline-block; /* Garante que o botão se comporte como um elemento em linha */
+  font-size: 20px; /* Tamanho da fonte do texto dentro do botão */
+  width: auto; /* ajusta a largura de acordo com o texto */
+ }
+
+.videos {
+  margin-top: 28rem; /* margim normal*/
+  margin-left: 20px;
+  gap: 20px; /* da espaçamento entre os videos*/
+  display: flex; /* Torna o contêiner flexível */
+  flex-wrap: nowrap; /* Permite que os itens sejam dispostos em várias linhas */
+  justify-content: center; /* Centraliza os itens horizontalmente */
+}
+
+iframe {
+  width: 100%; /* Define a largura do vídeo como 100% do contêiner */
+  height: auto; /* Mantém a proporção do vídeo */
+  max-width: 300px; /* Define a largura máxima do vídeo */
+  box-sizing: border-box; /* Garante que a borda seja incluída no cálculo do tamanho */
+}
+
+
+body {
+  background-color: #212121;
+  overflow: hidden;
+  width: 99vw;
+}
+
+.buttonTelaUpload {
+  color: black;
+  text-decoration: none;
+}
+
+@media (max-width: 1200px){
+  .imagem {
+    position:absolute;
+    max-width: 50%;
+    top: -10%; /* Posição vertical*/
+    left: 2%; /* Posição horizontal*/
+    
+   }
+  
+   .imagem2 {
+    position:relative;
+    border: 3px solid #9762b7;
+    width: 25%; /* Tamanho do circulo */
+    height: 25%; /* Tamanho do circulo */
+    margin-top: 36%; /* Posição vertical */
+    left: 20%; /* Posição horizontal */
+    border-radius: 50%; /* Deixando o campo redondo */
+   }
+  
+    .texto-lateral {
+      position: absolute;
+      left: 35%; /* Posição horizontal */
+      top: 35%; /* Posição vertical */
+      transform: translateY(-50%);
+      font-size: 50px; /* Tamanho da fonte */
+      color: #9762b7; /* Cor da fonte */
+   }
+  
+   .texto-inferior {
+    position: absolute;
+    left: 35%; /* Posição horizontal */
+    top: 40%; /* Posição vertical */
+    font-size: 25px; /* Tamanho da fonte */
+    color: #9762b7; /* Cor da fonte */
+   }
+  
+   .linha {
+    position: absolute;
+    left: 10.1%; /* posição da linha horizontal */
+    top: 59%; /* posição da linha vertical */
+    width: 86%; /* largura da linha */
+    border-top: 2px solid black;
+   }
+  
+   .texto-linha {
+    position: absolute;
+    left: 10%; /* distancia do texto horizontal */
+    top: 56%; /* altura do texto vertical */
+    font-size: 25px; /* Tamanho da fonte */
+    color: #9762b7; /* Cor da fonte */
+   }
+  
+   .botao {
+    position: absolute;
+    left: 66%; /* posição horizontal do botão */
+    top: 55.3%; /* posição vertical do botão */
+    
+   }
+  
+   .botao button {
+    position: relative;
+    border-radius: 10px 10px; /* arredondamento do botão */
+    margin-right: 10px; /* Ajuste opcional para adicionar um espaço entre os botões */
+    background-color: #9762b7; /* cor do botão */
+    display: inline-block; /* Garante que o botão se comporte como um elemento em linha */
+    font-size: 20px; /* Tamanho da fonte do texto dentro do botão */
+    width: auto; /* ajusta a largura de acordo com o texto */
+   }
+  
+   .videos {
+    margin-top: 25rem; /* margim normal*/
+    margin-left: 20px;
+    gap: 20px; /* da espaçamento entre os videos*/
+    display: flex; /* Torna o contêiner flexível */
+    flex-wrap: wrap; /* Permite que os itens sejam dispostos em várias linhas */
+    justify-content: center; /* Centraliza os itens horizontalmente */
+  }
+  
+  iframe {
+    width: 100%; /* Define a largura do vídeo como 100% do contêiner */
+    height: auto; /* Mantém a proporção do vídeo */
+    max-width: 300px; /* Define a largura máxima do vídeo */
+    box-sizing: border-box; /* Garante que a borda seja incluída no cálculo do tamanho */
+  }
+  
+  body {
+    background-color: #212121;
+  }
+
+  
+}

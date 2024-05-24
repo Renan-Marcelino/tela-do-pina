@@ -1,0 +1,77 @@
+
+body {
+    background-color: black;
+}
+
+.video-content {
+
+    display: flex;
+    flex-direction: row;
+    padding: 1rem;
+
+}
+
+.content-general {
+    display: flex;
+    
+}
+
+
+
+.video-content img {
+
+    width: 23rem;
+    margin-right: 1rem;
+}
+
+.video-info {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.video-info p {
+
+    margin-bottom: 1rem;
+    width: 30rem;
+    font-family: "Inter", sans-serif;
+
+
+
+}
+
+.search {
+    background-color: aqua;
+    width: 303px;
+    height: 455px;
+}
+
+h2 {
+    color: white;
+}
+
+ 
+
+.title {
+    color: white;
+    font-size: 1.2rem;
+}
+
+.channel {
+    color: white;
+    font-size: 1;
+}
+
+.views {
+
+    color: #dddddd;
+    font-size: .9;
+
+}
+
+.desc {
+    color: #dddddd;
+    font-size: .6;
+    width: 30rem;
+}

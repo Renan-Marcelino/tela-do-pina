@@ -1,0 +1,284 @@
+/*-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+/* Começo Painel Principal*/
+
+.body {
+  background-color: #212121;
+}
+
+
+
+
+.catalogosDireita, .catalogosEsquerda {
+  background-color: #212121;
+  height: 6.7rem;
+  width: 12rem;
+  border: 2px solid #8800ff;
+  margin-top: 20px;
+  position: relative;
+}
+
+.video-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.video-container iframe {
+  width: 100%;
+  height: 100%;
+}
+
+
+
+.tituloDescrição {
+
+  color: #8800ff;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 20px;
+  position: absolute;
+  top: 80%;
+  left: 16%;
+
+}
+
+
+.tituloDescrição2 {
+
+  color: #8800ff;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 20px;
+  position: absolute;
+  top: 88%;
+  left: 16%;
+
+}
+
+.titulo2 {
+
+  color: #ffffff;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 20px;
+  position: absolute;
+  top: 40%;
+  left: 32%;
+
+}
+
+.tituloMerdaH3 {
+
+  color: #000000;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 10px;
+  position: absolute;
+  top: 1.8%;
+  left: 39.9%;
+
+}
+
+.titulo4 {
+
+  color: #000000;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 14px;
+  position: absolute;
+  top: -10%;
+  left: 11%;
+
+}
+
+.titulo5 {
+
+  color: #ffffff;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 20px;
+  position: absolute;
+  top: 40%;
+  left: 20%;
+
+}
+
+.titulo6 {
+
+  color: #ffffff;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 20px;
+  position: absolute;
+  top: -14%;
+  left: 43%;
+
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+
+.catalogosDaDireita {
+  margin-top: -90px;
+}
+
+.catalogosDaEsquerda {
+  margin-top: -90px;
+
+}
+
+/* Fim dos Catalogos*/
+
+/*-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+/* Começo do Carrossel*/
+
+/*Base do Carrossel*/
+.carrossel {
+  background-color: #212121;
+  border: 2px solid #8800ff;
+  position: absolute;
+  border-radius: 14px;
+}
+
+/*Base do Carrossel*/
+
+.carrossel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 5rem;
+  /*left: 16%;
+   height: 74%;
+     width: 68%;*/
+  overflow: hidden;
+  margin: 0 auto;
+
+  height: 64%;
+  width: 58%;
+  left: 20%;
+}
+
+
+.prev4 {
+  padding: 32px;
+  top: 40%;
+  color: #8800ff;
+  position: absolute;
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='%238800ff' fill-rule='evenodd' d='M2.5 9.402c-2 1.155-2 4.041 0 5.196l9 5.196c1.515.875 3.317.259 4.102-1.096l1.898 1.096c2 1.155 4.5-.288 4.5-2.598V6.804c0-2.31-2.5-3.753-4.5-2.598l-1.898 1.096c-.785-1.355-2.587-1.971-4.102-1.096zM16 7.382v9.237l2.5 1.443a1 1 0 0 0 1.5-.866V6.804a1 1 0 0 0-1.5-.866z' clip-rule='evenodd'/%3E%3C/svg%3E");
+
+
+
+}
+
+.next4 {
+  padding: 32px;
+  top: 40%;
+  color: #8800ff;
+  position: absolute;
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='%238800ff' fill-rule='evenodd' d='M5.5 5.938a1 1 0 0 0-1.5.866v10.392a1 1 0 0 0 1.5.866L8 16.62V7.38zm2.898-.636L6.5 4.206l-.5.866l.5-.866C4.5 3.05 2 4.494 2 6.804v10.392c0 2.31 2.5 3.753 4.5 2.598l1.898-1.096c.785 1.355 2.587 1.971 4.102 1.096l9-5.196c2-1.155 2-4.041 0-5.196l-9-5.196c-1.515-.875-3.317-.259-4.102 1.096' clip-rule='evenodd'/%3E%3C/svg%3E");
+
+
+
+
+
+
+  /*
+   background-color: #8800ff;
+     cursor: pointer;
+     position: absolute;
+     top: 50%;
+     transform: translateY(-50%);
+    /* background: rgba(0, 0, 0, 0.5);
+     color: white;
+     padding: 10px;
+     z-index: 2;
+   border-radius: 10px;*/
+}
+
+.prev4 {
+  left: 0;
+}
+
+.next4 {
+  right: 0;
+}
+
+.video-container {
+  position: relative;
+}
+
+h2 {
+  color: aliceblue;
+  margin-top: 20px;
+}
+
+
+
+@media (max-width: 1200px) {
+  .catalogosDireita, .catalogosEsquerda {
+    width: 45%;
+    max-width: 250px;
+  }
+
+  .containerCarrosel {
+    width: 90%;
+    margin: 20px auto;
+  }
+
+
+ 
+  .carrossel {
+    height: 150px;
+    width: 90%;
+    max-width: 600px;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .catalogosDireita, .catalogosEsquerda {
+    width: 80%;
+    max-width: 300px;
+    margin-bottom: 20px;
+  }
+
+  .containerCarrosel {
+    width: 90%;
+    margin: 20px auto;
+  }
+
+  .carrossel {
+    height: 150px;
+    width: 90%;
+    max-width: 600px;
+  }
+}
+
+@media (max-width: 480px) {
+  .catalogosDireita, .catalogosEsquerda {
+    width: 90%;
+    max-width: 250px;
+  }
+
+  .containerCarrosel {
+    width: 95%;
+    margin: 20px auto;
+  }
+
+  .carrossel {
+    height: 120px;
+    max-width: 400px;
+  }
+}
