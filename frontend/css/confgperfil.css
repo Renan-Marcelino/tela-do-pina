@@ -1,4 +1,153 @@
 body {
+    overflow-x: hidden;
+    width: 95vw;
+}
+
+body.light-theme {
+    background-color: white;
+    color: black;
+}
+
+body.dark-theme {
+    background-color: #212121;
+    color: white;
+}
+body {
+    background-color: #212121;
+    overflow-x: hidden;
+    width: 95vw;
+    color: white;
+}
+
+.imagens {
+    position: relative;
+    left: 13%;
+    margin-top: 2%;
+}
+
+.img1 {
+    border-radius: 100%;
+    width: 110%;
+    border: #8800ff solid 3px;
+}
+
+.img2 {
+    position: relative;
+    left: 90%;
+    width: 30%;
+    top: -15%;
+}
+
+.imputs {
+    display: grid;
+    width: 600px;
+    gap: 3px;
+    padding-top: 1%;
+    padding-left: 23%;
+}
+
+.imputs input {
+    width: 100%;
+    height: 60%;
+    box-sizing: border-box;
+    background-color: #fff;
+    border: solid 2px #8800ff;
+    border-radius: 100px;
+    color: #000000;
+    font-size: 26px;
+    font-weight: bold;
+    padding: 1px 20px;
+}
+
+.abc {
+    display: flex;
+    flex-direction: row;
+}
+
+.tema {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding-left: 355px;
+}
+
+.tema2 {
+    width: 24%;
+    height: 55px;
+    background-color: #8800ff;
+    border: #8800ff solid 2px;
+    border-radius: 100px 0 0 100px;
+    z-index: 1;
+    color: #fff;
+    font-size: 26px;
+    font-weight: bold;
+    text-align: left;
+    padding-left: 20px;
+}
+
+.btn-tema {
+    position: relative;
+    width: 17%;
+    height: 55px;
+    right: 15px;
+    border: #8800ff solid 2px;
+    z-index: -1;
+    border-radius: 0 100px 100px 0;
+    color: #8800ff;
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.btn-tema2 {
+    position: relative;
+    right: 44px;
+    width: 17%;
+    height: 55px;
+    background-color: #8800ff;
+    border: #8800ff solid 2px;
+    z-index: -2;
+    border-radius: 0 100px 100px 0;
+    color: #fff;
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.btns-sd {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: right;
+    padding-left: 800px;
+    margin-bottom: 500px;
+}
+
+.btn-d {
+    position: relative;
+    right: 110px;
+    width: 25%;
+    height: 60px;
+    color: #fff;
+    background-color: #212121;
+    border: #8800ff solid 2px;
+    border-radius: 100px;
+    top: 60px;
+    font-size: 22px;
+}
+
+.btn-s {
+    position: relative;
+    right: 90px;
+    width: 25%;
+    height: 60px;
+    color: #fff;
+    background-color: #8800ff;
+    border: #8800ff solid 2px;
+    border-radius: 100px;
+    top: 60px;
+    font-size: 22px;
+}
+body {
     background-color: #212121;
     overflow-x: hidden;
     width: 95vw;
@@ -8,29 +157,29 @@ body {
 
 .imagens {
     position: relative;
-    left: 20%;
-    margin-top: 10%;
+    left: 13%;
+    margin-top: 2%;
 }
 
 .img1 {
     border-radius: 100%;
-    width: 150%;
+    width: 110%;
     border: #8800ff solid 3px;
 }
 
 .img2 {
     position: relative;
-    left: 122%;
+    left: 90%;
     width: 30%;
     top: -15%;
 }
 
 .imputs {
     display: grid;
-    width: 800px;
+    width: 600px;
     gap: 3px;
-    padding-top: 6%;
-    padding-left: 35%;
+    padding-top: 1%;
+    padding-left: 23%;
 }
 
 .imputs input {
@@ -58,12 +207,12 @@ body {
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    padding-left: 710px;
+    padding-left: 355px;
 }
 
 .tema2 {
-    width: 22%;
-    height: 80px;
+    width: 24%;
+    height: 55px;
     background-color: #8800ff;
     border: #8800ff solid 2px;
     border-radius: 100px 0 0 100px;
@@ -73,14 +222,15 @@ body {
     color: #fff;
     font-size: 26px;
     font-weight: bold;
-    padding: 1px 20px;
+    text-align: left;
+    padding-left: 20px;
 }
 
 .btn-tema {
     position: relative;
     width: 17%;
-    height: 85px;
-    right: 50px;
+    height: 55px;
+    right:15px;
     border: #8800ff solid 2px;
     z-index: -1;
     border-radius: 0 100px 100px 0;
@@ -93,9 +243,9 @@ body {
 
 .btn-tema2 {
     position: relative;
-    right: 95px;
-    width: 15%;
-    height: 85px;
+    right: 44px;
+    width: 17%;
+    height: 55px;
     background-color: #8800ff;
     border: #8800ff solid 2px;
     z-index: -2;
@@ -113,18 +263,19 @@ body {
     align-items: center;
     justify-content: right;
     padding-left: 800px;
+    margin-bottom: 500px;
 }
 
 .btn-d {
     position: relative;
-    right: 200px;
-    width: 15%;
+    right: 110px;
+    width: 25%;
     height: 60px;
     color: #fff;
     background-color: #212121;
     border: #8800ff solid 2px;
     border-radius: 100px;
-    top: 90px;
+    top: 60px;
 
     /* testo*/
     font-size: 22px;
@@ -132,15 +283,16 @@ body {
 
 .btn-s {
     position: relative;
-    right: 160px;
-    width: 15%;
+    right: 90px;
+    width: 25%;
     height: 60px;
     color: #fff;
     background-color: #8800ff;
     border: #8800ff solid 2px;
     border-radius: 100px;
-    top: 90px;
+    top: 60px;
 
     /* testo*/
     font-size: 22px;
 }
+
